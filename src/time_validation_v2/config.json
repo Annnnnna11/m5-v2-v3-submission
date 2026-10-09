@@ -1,0 +1,61 @@
+{
+  "experiment": "time_validation_v2_submission",
+  "stages": {
+    "development": 1885,
+    "test": 1913,
+    "final": 1941
+  },
+  "horizon": 28,
+  "first_day": 1,
+  "rounds": 3000,
+  "threads": 4,
+  "stores": [
+    "CA_1",
+    "CA_2",
+    "CA_3",
+    "CA_4",
+    "TX_1",
+    "TX_2",
+    "TX_3",
+    "WI_1",
+    "WI_2",
+    "WI_3"
+  ],
+  "modes": [
+    "nonrecursive",
+    "recursive"
+  ],
+  "ensemble": {
+    "nonrecursive": 0.5,
+    "recursive": 0.5
+  },
+  "selection": "Keep original parameters and equal blend; freeze after development before test. No test-driven tuning.",
+  "price_calendar_policy": "Competition-known covariates through cutoff+28 only; weekly price rows restricted to weeks intersecting this range.",
+  "zero_scale_policy": "exact prediction -> 0; nonzero MSE -> infinity; zero-weight series contribute 0; zero total revenue fails",
+  "params": {
+    "boosting_type": "gbdt",
+    "objective": "tweedie",
+    "tweedie_variance_power": 1.1,
+    "metric": "rmse",
+    "subsample": 0.5,
+    "subsample_freq": 1,
+    "learning_rate": 0.015,
+    "feature_fraction": 0.5,
+    "max_bin": 100,
+    "boost_from_average": false,
+    "verbosity": -1,
+    "force_col_wise": true
+  },
+  "mode_params": {
+    "recursive": {
+      "num_leaves": 2047,
+      "min_data_in_leaf": 4095,
+      "seed": 42
+    },
+    "nonrecursive": {
+      "num_leaves": 255,
+      "min_data_in_leaf": 255,
+      "seed": 1995
+    }
+  }
+}

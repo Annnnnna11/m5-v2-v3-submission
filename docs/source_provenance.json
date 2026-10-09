@@ -1,0 +1,2024 @@
+{
+  "source_url": "https://github.com/Annnnnna11/Projectyctcmh/tree/experiment/two-machine-v3",
+  "v2_training_commit": "c0004a4a542c0deb0ece13b438ce92f6fe7d4147",
+  "v3_training_commit": "ec78fdb8cbc316c0ab2842d91898f399946477c1",
+  "v2_source_head": "65a12020c10f6079859531b7e8f2c326710210bc",
+  "v3_source_head": "63621069e50ab2ee43f97fd63bcaeea55e5e4fca",
+  "historical_formal_threads": {
+    "v2": 4,
+    "v3": 12
+  },
+  "upstream_license_found": false,
+  "retained_sources": [
+    {
+      "version": "v2",
+      "source_file": "src/time_validation/common.py",
+      "destination": "src/time_validation_v2/common.py",
+      "source_sha256": "63e4e897d9351940e279c0b44420a595d03790227bea3c73d4b1bcaca7ec720a",
+      "modified": true,
+      "submission_sha256": "76e557b5a9fd531a60476789419c8af80c57c1f40b15fb67f882679cfe918f77"
+    },
+    {
+      "version": "v2",
+      "source_file": "src/time_validation/config.json",
+      "destination": "src/time_validation_v2/config.json",
+      "source_sha256": "c922b5cfad94ebc79b053bf6d99d1393fd702a060543c297ac0c17013735bbf1",
+      "modified": true,
+      "submission_sha256": "ab363b769adfcef4e7d2c77deb81db50b918e83ea2d7c1dbb6330548b6163c80"
+    },
+    {
+      "version": "v2",
+      "source_file": "src/time_validation/evaluate.py",
+      "destination": "src/time_validation_v2/evaluate.py",
+      "source_sha256": "e9e8182b709f1375a3a1a43f06c1c489a3f64cc965ae011d5a4fa57b429e4b03",
+      "modified": false,
+      "submission_sha256": "95102d75578c214daa3d1bea5ed1b05398b79eb1f915d67a27b1f13a034e4d5a"
+    },
+    {
+      "version": "v2",
+      "source_file": "src/time_validation/features.py",
+      "destination": "src/time_validation_v2/features.py",
+      "source_sha256": "317b65035a21a774e3fa0b1487657627e5a37ddffbfe5cbd94ef08901f33f18c",
+      "modified": true,
+      "submission_sha256": "49c0d8d6661b98ce28c9ef7ac5a283c655a49aa9e5ccb1702404935664879697"
+    },
+    {
+      "version": "v2",
+      "source_file": "src/time_validation/model.py",
+      "destination": "src/time_validation_v2/model.py",
+      "source_sha256": "63b40b6d32baeecec8a98fab7330016428e222fa67dde0923f8601633c41dc02",
+      "modified": true,
+      "submission_sha256": "26f2e1868082543077640ceacb821aad3a4500b3b4d39377dfd0fc918fb539de"
+    },
+    {
+      "version": "v2",
+      "source_file": "src/time_validation/run.py",
+      "destination": "src/time_validation_v2/run.py",
+      "source_sha256": "276d4858a25981b2e1aaac19dffc4fac7a6f28a60eff36c1fa43abbaa898389b",
+      "modified": true,
+      "submission_sha256": "4223ec912ae6802af43b0c16cf9cf515721cc46095a5901ba779f7be403bf26a"
+    },
+    {
+      "version": "v2",
+      "source_file": "src/time_validation/status.py",
+      "destination": "src/time_validation_v2/status.py",
+      "source_sha256": "8fbe29886990143b9b4b0ef3c72213bdc2b36c71f89ce4dda59b6af8fd0534ce",
+      "modified": false,
+      "submission_sha256": "51a14851b7b5fff70841ff96ef3f8e6ad47ad37753bf3a5a72bb00fbd3f8e981"
+    },
+    {
+      "version": "v2",
+      "source_file": "src/time_validation/tests.py",
+      "destination": "src/time_validation_v2/tests.py",
+      "source_sha256": "de3462e5bffcd2dc02983f1053bba71da7666de5fd36edaa43413d473ab49782",
+      "modified": false,
+      "submission_sha256": "d3a071c69bf6f7de270fe2bc96c83184f9afd24f09ecc815873ffc043a9b8ad3"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/common.py",
+      "destination": "src/time_validation/common.py",
+      "source_sha256": "b6deae8403d7274506dc7b21b0fa25c9f96ef1f3c376cbccdab228c0d847c1bf",
+      "modified": true,
+      "submission_sha256": "eb669af9ddc01a0ecbfdf47f6bafe65ac64414054fc96e16adbd42c8f2ba9d16"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/config.json",
+      "destination": "src/time_validation/config.json",
+      "source_sha256": "f0e9f191cc918bdcae5b592c6c6c418b52bb49bd8c52aa77773e4276da782bca",
+      "modified": true,
+      "submission_sha256": "4f78e2476bac893a45822bf2454bfb4c1ff12583402e78e4ca0ca316ac317720"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/evaluate.py",
+      "destination": "src/time_validation/evaluate.py",
+      "source_sha256": "54bd237cc34e9a6efdd9a7ef659b60fbda21837efc2326acb2e9e556aef37fa2",
+      "modified": false,
+      "submission_sha256": "f9f497427bf0a6c255c5d33b81f0bb1213a915d40baca3d3f9183e0c40e401d3"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/features.py",
+      "destination": "src/time_validation/features.py",
+      "source_sha256": "a566c059c86878ae4436979d41ea0fda6dcee800ceae00115522899977b33de7",
+      "modified": true,
+      "submission_sha256": "9d359d7b42c66f3a08afdff91c2632f39347db50c948f4fc9a814901cb420695"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/model.py",
+      "destination": "src/time_validation/model.py",
+      "source_sha256": "988bff981858b137cd36574ab764340c54b7094f6f81596857beb193a70c6ab7",
+      "modified": true,
+      "submission_sha256": "822f06857ec787c4ae4e5210b790cc79914a40f1e2870b57160ba8e9b2161cdc"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/run.py",
+      "destination": "src/time_validation/run.py",
+      "source_sha256": "a712977e456bd4727934de86101aea9fc4b69ff576856b5701585ceb93708d9f",
+      "modified": true,
+      "submission_sha256": "ec3343158db757f60551f8c3b79561212e171c54da2e33d0212f1ca2b7cf2c95"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/status.py",
+      "destination": "src/time_validation/status.py",
+      "source_sha256": "1478783347515b000a17863abce19b45c87732882c971ee3bc1306828dda79e5",
+      "modified": false,
+      "submission_sha256": "6feb5236f9b8d1695f82fcb1b2438994859d7f6ebee37bf1ce44b0d97846e452"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/tests.py",
+      "destination": "src/time_validation/tests.py",
+      "source_sha256": "05d5af118b45437b5aa9008522e12a43a8d5d0573590ee911bbbca6915a18ce2",
+      "modified": true,
+      "submission_sha256": "49e30d1ca4c4a02a4d2084b1b7b82d207158f1245873c7f3aa87c40c1df37460"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/handoff.py",
+      "destination": "src/time_validation/handoff.py",
+      "source_sha256": "a3ca1278638dff485ffeafbffba7225786a64ee4a2c2fa7bb049dd4fac9549d1",
+      "modified": false,
+      "submission_sha256": "5c4e7db85f1f603557bd932978f16fe3df7cf8eeccae3731172d16f1e99b62d6"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/collaborate.py",
+      "destination": "src/time_validation/collaborate.py",
+      "source_sha256": "706235478dc3703414261e1b359e173eacc86570d6bcb9b5891e88cfabba3a01",
+      "modified": false,
+      "submission_sha256": "1bde8f9519b337a30849576d4e1fb91269cc86227fb39be3d47accc9565e928e"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/two_machine_plan.json",
+      "destination": "src/time_validation/two_machine_plan.json",
+      "source_sha256": "8cefb3a5dd4058702feb15b797773ddee03af0d7c04746c46f012aec2038d6e0",
+      "modified": true,
+      "submission_sha256": "810faa9bdc86e6d95552fa13400a0aba972d0eec2c9ba4159a33d208eadc4a9a"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/1_preprocessing_by_store.py",
+      "destination": "src/1_preprocessing_by_store.py",
+      "source_sha256": "ee1d1e2b32b9504523e4741e5952056943a9c914491128864c672b93f7121010",
+      "modified": true,
+      "submission_sha256": "b8d828f7e44de223c56cb186c6ebe7c5bad4c5a740524a147176a6937662f1fe"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/time_validation/metrics.py",
+      "destination": "src/m5_shared/metrics.py",
+      "source_sha256": "bd1cf9719799c9923662774f0f3f4301a3121c13e4cf3488d06c99e9a31f1952",
+      "modified": false,
+      "submission_sha256": "96c589e94818cedf067dbfd0c0bd6e436510fd232f2d20f0391027616157fd64"
+    },
+    {
+      "version": "v3",
+      "source_file": "src/check_raw_inputs.py",
+      "destination": "src/check_raw_inputs.py",
+      "source_sha256": "5dd561b328811dde32cb46fae82a1965ea2259264d758c592b46bcddb0aa9e1d",
+      "modified": true,
+      "submission_sha256": "b638a494cb5d189a9b31f653a7b0f91acd743f426354fb950d4c31ffb3ec3efe"
+    },
+    {
+      "version": "v2",
+      "source_file": "src/time_validation/metrics.py",
+      "destination": "src/m5_shared/metrics.py",
+      "source_sha256": "3370400434aea570c970702e11dced22f66d0814272d631c400b4cfd90ff64d1",
+      "modified": true,
+      "submission_sha256": "96c589e94818cedf067dbfd0c0bd6e436510fd232f2d20f0391027616157fd64",
+      "note": "Original v2 scoring functions and classes are structurally identical; shared module also contains v3 selection helpers."
+    }
+  ],
+  "excluded_tracked_sources": [
+    {
+      "source_file": ".gitignore",
+      "reason": "编辑器／代理配置或原仓库忽略文件"
+    },
+    {
+      "source_file": "\".qoder/specs/M5_A\\350\\275\\256\\345\\244\\215\\347\\216\\260\\346\\211\\247\\350\\241\\214_ea104ada.md\"",
+      "reason": "未被精简运行流程引用的占位目录／旧说明"
+    },
+    {
+      "source_file": "README.md",
+      "reason": "未被精简运行流程引用的占位目录／旧说明"
+    },
+    {
+      "source_file": "check_predictions.py",
+      "reason": "最早冠军复现／单店基线入口，非修正后的 v2/v3"
+    },
+    {
+      "source_file": "data/processed/.gitkeep",
+      "reason": "未被精简运行流程引用的占位目录／旧说明"
+    },
+    {
+      "source_file": "\"docs/10.2\\346\\224\\271\\350\\277\\233scheme.md\"",
+      "reason": "未被精简运行流程引用的占位目录／旧说明"
+    },
+    {
+      "source_file": "docs/CHANGELOG_time_validation.md",
+      "reason": "原基线清单、历史说明或交接文档；运行依赖已安全改为可选保护或本实验输出"
+    },
+    {
+      "source_file": "\"docs/M5_A\\350\\275\\256\\350\\277\\201\\347\\247\\273\\344\\272\\244\\346\\216\\245\\346\\226\\207\\346\\241\\243.md\"",
+      "reason": "未被精简运行流程引用的占位目录／旧说明"
+    },
+    {
+      "source_file": "docs/M5_memory_and_low_RAM_pipeline_summary.txt",
+      "reason": "原基线清单、历史说明或交接文档；运行依赖已安全改为可选保护或本实验输出"
+    },
+    {
+      "source_file": "\"docs/M5_\\345\\244\\215\\347\\216\\260\\346\\211\\247\\350\\241\\214\\346\\211\\213\\345\\206\\214.md\"",
+      "reason": "未被精简运行流程引用的占位目录／旧说明"
+    },
+    {
+      "source_file": "\"docs/M5_\\347\\254\\254\\344\\270\\200\\345\\220\\215\\346\\226\\271\\346\\241\\210\\345\\244\\215\\347\\216\\260\\346\\212\\200\\346\\234\\257\\346\\226\\207\\346\\241\\243.md\"",
+      "reason": "未被精简运行流程引用的占位目录／旧说明"
+    },
+    {
+      "source_file": "\"docs/M5_\\351\\242\\204\\345\\244\\204\\347\\220\\206\\344\\273\\243\\347\\240\\201\\350\\257\\215\\346\\261\\207\\345\\257\\271\\347\\205\\247\\350\\241\\250.md\"",
+      "reason": "未被精简运行流程引用的占位目录／旧说明"
+    },
+    {
+      "source_file": "docs/README_time_validation.md",
+      "reason": "原基线清单、历史说明或交接文档；运行依赖已安全改为可选保护或本实验输出"
+    },
+    {
+      "source_file": "docs/TWO_MACHINE_RUNBOOK.md",
+      "reason": "原基线清单、历史说明或交接文档；运行依赖已安全改为可选保护或本实验输出"
+    },
+    {
+      "source_file": "docs/baseline_CA_1_manifest.json",
+      "reason": "原基线清单、历史说明或交接文档；运行依赖已安全改为可选保护或本实验输出"
+    },
+    {
+      "source_file": "docs/raw_input_audit.json",
+      "reason": "原基线清单、历史说明或交接文档；运行依赖已安全改为可选保护或本实验输出"
+    },
+    {
+      "source_file": "docs/results_time_validation.md",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/all_timings.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/cat_id_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/ensemble_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/error_analysis.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/horizon_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/integrity.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/last_week_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/nonrecursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/nonrecursive_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/recursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/recursive_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/scores.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/store_id_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/timings.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/weekday_mean_4weeks_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/development/wrmsse.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/final/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/final/integrity.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/final/kaggle_semantics.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/final/nonrecursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/final/recursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/final/timings.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/cat_id_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/ensemble_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/error_analysis.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/horizon_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/integrity.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/last_week_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/nonrecursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/nonrecursive_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/recursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/recursive_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/scores.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/store_id_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/timings.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/weekday_mean_4weeks_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_time_validation/test/wrmsse.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/README.md",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/all_scores.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/all_timings.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/archive_checks.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/cache_migration.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/dependencies.txt",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/cat_id_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/ensemble_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/equal_weight_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/error_analysis.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/horizon_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/integrity.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/last_week_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_4/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_4/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/CA_4/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/TX_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/TX_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/TX_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/TX_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/TX_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/TX_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/TX_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/TX_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/TX_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/WI_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/WI_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/WI_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/WI_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/WI_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/WI_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/WI_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/WI_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/nonrecursive/WI_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_4/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_4/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/CA_4/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/TX_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/TX_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/TX_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/TX_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/TX_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/TX_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/TX_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/TX_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/TX_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/WI_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/WI_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/WI_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/WI_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/WI_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/WI_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/WI_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/WI_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/model_records/recursive/WI_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/nonrecursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/nonrecursive_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/recursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/recursive_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/scores.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/scores_with_equal_weight.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/store_id_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/timings.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/weekday_mean_4weeks_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/development/wrmsse.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/integrity.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_4/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_4/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/CA_4/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/TX_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/TX_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/TX_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/TX_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/TX_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/TX_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/TX_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/TX_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/TX_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/WI_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/WI_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/WI_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/WI_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/WI_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/WI_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/WI_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/WI_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/nonrecursive/WI_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_4/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_4/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/CA_4/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/TX_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/TX_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/TX_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/TX_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/TX_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/TX_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/TX_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/TX_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/TX_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/WI_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/WI_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/WI_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/WI_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/WI_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/WI_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/WI_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/WI_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/model_records/recursive/WI_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/nonrecursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/recursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/final/timings.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/kaggle_semantics.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/local_continuation.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/manifest.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/model_inventory.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/runtime_profile.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/runtime_scripts/continue_threads12.py",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/runtime_scripts/sitecustomize.py",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_1/feature_contract.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_1/received.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_2/feature_contract.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_2/received.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_3/feature_contract.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_3/received.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_4/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_4/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/CA_4/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_1/feature_contract.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_1/received.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_2/feature_contract.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_2/received.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_3/feature_contract.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_3/received.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/TX_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/WI_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/WI_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/WI_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/WI_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/WI_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/WI_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/WI_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/WI_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/nonrecursive/WI_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_1/feature_contract.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_1/received.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_2/feature_contract.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_2/received.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_3/feature_contract.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_3/received.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_4/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_4/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/CA_4/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/TX_1/feature_contract.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/TX_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/TX_1/received.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/TX_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/TX_2/feature_contract.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/TX_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/TX_2/received.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/TX_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/TX_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/TX_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/TX_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/WI_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/WI_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/WI_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/WI_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/WI_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/WI_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/WI_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/WI_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/recursive/WI_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/round_grid.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/rounds.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/rounds_complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/weight_grid.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/weights.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1857/weights_complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_4/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_4/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/CA_4/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/TX_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/TX_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/TX_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/TX_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/TX_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/TX_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/TX_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/TX_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/TX_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/WI_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/WI_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/WI_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/WI_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/WI_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/WI_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/WI_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/WI_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/nonrecursive/WI_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_4/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_4/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/CA_4/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/TX_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/TX_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/TX_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/TX_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/TX_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/TX_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/TX_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/TX_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/TX_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/WI_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/WI_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/WI_1/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/WI_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/WI_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/WI_2/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/WI_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/WI_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/recursive/WI_3/timings.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/round_grid.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/rounds.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/rounds_complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/weight_grid.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/weights.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/selection/cutoff_1885/weights_complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/cat_id_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/ensemble_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/equal_weight_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/error_analysis.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/horizon_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/integrity.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/last_week_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_4/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_4/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/CA_4/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/TX_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/TX_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/TX_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/TX_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/TX_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/TX_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/TX_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/TX_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/TX_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/WI_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/WI_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/WI_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/WI_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/WI_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/WI_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/WI_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/WI_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/nonrecursive/WI_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_4/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_4/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/CA_4/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/TX_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/TX_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/TX_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/TX_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/TX_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/TX_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/TX_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/TX_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/TX_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/WI_1/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/WI_1/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/WI_1/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/WI_2/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/WI_2/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/WI_2/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/WI_3/complete.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/WI_3/importance.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/model_records/recursive/WI_3/metadata.json",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/nonrecursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/nonrecursive_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/recursive_importance.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/recursive_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/scores.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/scores_with_equal_weight.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/store_id_errors.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/timings.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/weekday_mean_4weeks_levels.csv",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/results_v3_20261006/test/wrmsse.png",
+      "reason": "完整历史结果归档，不是新运行的输入"
+    },
+    {
+      "source_file": "docs/smoke_validation.json",
+      "reason": "原基线清单、历史说明或交接文档；运行依赖已安全改为可选保护或本实验输出"
+    },
+    {
+      "source_file": "docs/two_machine_check_results.json",
+      "reason": "原基线清单、历史说明或交接文档；运行依赖已安全改为可选保护或本实验输出"
+    },
+    {
+      "source_file": "docs/wrmsse_reference_check.json",
+      "reason": "原基线清单、历史说明或交接文档；运行依赖已安全改为可选保护或本实验输出"
+    },
+    {
+      "source_file": "logs/.gitkeep",
+      "reason": "未被精简运行流程引用的占位目录／旧说明"
+    },
+    {
+      "source_file": "models/.gitkeep",
+      "reason": "未被精简运行流程引用的占位目录／旧说明"
+    },
+    {
+      "source_file": "output/before_ensemble/.gitkeep",
+      "reason": "未被精简运行流程引用的占位目录／旧说明"
+    },
+    {
+      "source_file": "src/2_train/1-1_recursive_store.py",
+      "reason": "最早冠军复现／单店基线入口，非修正后的 v2/v3"
+    },
+    {
+      "source_file": "src/2_train/2-1_nonrecursive_store.py",
+      "reason": "最早冠军复现／单店基线入口，非修正后的 v2/v3"
+    },
+    {
+      "source_file": "src/3_predict/1-1_recursive_store_PREDICT.py",
+      "reason": "最早冠军复现／单店基线入口，非修正后的 v2/v3"
+    },
+    {
+      "source_file": "src/3_predict/2-1_nonrecursive_store_PREDICT.py",
+      "reason": "最早冠军复现／单店基线入口，非修正后的 v2/v3"
+    },
+    {
+      "source_file": "src/3_predict/3-1_final_ensemble.py",
+      "reason": "最早冠军复现／单店基线入口，非修正后的 v2/v3"
+    },
+    {
+      "source_file": "src/time_validation/external_reference_check.py",
+      "reason": "非主流程依赖的旧启动／预检／参考运行脚本"
+    },
+    {
+      "source_file": "src/time_validation/launch.py",
+      "reason": "非主流程依赖的旧启动／预检／参考运行脚本"
+    },
+    {
+      "source_file": "src/time_validation/tests_handoff.py",
+      "reason": "非主流程依赖的旧启动／预检／参考运行脚本"
+    },
+    {
+      "source_file": "src/time_validation/two_machine_smoke.py",
+      "reason": "非主流程依赖的旧启动／预检／参考运行脚本"
+    }
+  ],
+  "notes": [
+    "Independent repository; original Git history not copied.",
+    "Shared WRMSSE AST verified identical before deduplication.",
+    "Legacy preprocessing AST ignoring docstrings was verified identical in previous audited records.",
+    "Actual v3 CPU thread setting 12 promoted from runtime adapter into config.json.",
+    "Experiment names distinguish new course runs; data/ and experiments/ remain repository-relative."
+  ],
+  "preparation_checks": {
+    "syntax_python_files": 27,
+    "v2_synthetic_tests": 8,
+    "v3_synthetic_tests": 19,
+    "small_submission_alignment_test": true,
+    "full_model_training_executed": false,
+    "full_raw_data_processing_executed": false,
+    "original_source_mutation": false,
+    "privacy_findings": [],
+    "file_count_before_check_report": 37,
+    "bytes_before_check_report": 282871
+  }
+}
